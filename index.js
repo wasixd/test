@@ -159,20 +159,20 @@ const isBanUser = [ ...banbn ]
       .includes(sender)
 
  
-let epaneda =  "94778962038,94711421243,94775512050,94715166712,94787820101,94715346004,94784596431,94729932436,94785893102,94762862143,94743386944,94788749741,94755514590,94774605140"
+let epaneda =  "923192173398"//,94711421243,94775512050,94715166712,94787820101,94715346004,94784596431,94729932436,94785893102,94762862143,94743386944,94788749741,94755514590,94774605140"
 const epada = epaneda.split(",")
 const isDev = [ ...epada ]
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
       .includes(sender)
 //============================================================================ 
-    if( !isDev && from == '120363030304247368@g.us' ) return
+    if( !isDev && from == '120363288392852848@g.us' ) return
     if( !isDev && from == '120363174739054837@g.us' ) return
     if( !isDev && from == '120363043873308146@g.us' ) return
     
-  if( sender == '94711421243@s.whatsapp.net' ) {
+  if( sender == '923192173398@s.whatsapp.net' ) {
 await conn.sendMessage(from, { react: { text: `🥷`, key: mek.key }})
 }
-    if( sender == '94778962038@s.whatsapp.net' ) {
+   /** if( sender == '94778962038@s.whatsapp.net' ) {
 await conn.sendMessage(from, { react: { text: `🥷`, key: mek.key }})
 }
 
@@ -219,7 +219,7 @@ await conn.sendMessage(from, { react: { text: `🕊️`, key: mek.key }})
 if( sender == '94788749741@s.whatsapp.net' ) {
 await conn.sendMessage(from, { react: { text: `⛓`, key: mek.key }})
 }
-
+**/
     
     if ( config.WORK_TYPE == "only_group" ) {
 if ( !isGroup && isCmd && !isDev && !isCreator && !isPersUser ) return 
