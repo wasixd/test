@@ -52,7 +52,11 @@ cmd({
      }
    }
  );
-/**
+
+
+
+
+/***
  smd(
    {
      pattern: "tiktok2",
@@ -107,7 +111,7 @@ cmd({
 
 
     
-/***
+
 
 cmd({
     pattern: "tiktok",
