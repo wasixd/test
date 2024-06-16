@@ -2,6 +2,113 @@ const config = require('../config')
 const fg = require('api-dylux')
 const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
+
+cmd({
+     pattern: "tiktok",
+     alias: ["tt", "ttdl"],
+     desc: "Downloads Tiktok Videos Via Url.",
+     category: "downloader",
+     filename: __filename,
+     use: "<add tiktok url.>",
+   },
+   async (message, url) => {
+     try {
+       const fileType = url.toLowerCase().includes("doc")
+         ? "document"
+         : url.toLowerCase().includes("mp3")
+         ? "audio"
+         : "video";
+ 
+       if (!url) {
+         return await message.reply(
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+         );
+       }
+ 
+       const tiktokUrl = url ? url.split(" ")[0] : "";
+ 
+       if (!/tiktok/.test(tiktokUrl)) {
+         return await message.reply(
+           "*Uhh Please, Give me Valid Tiktok Video Url!*"
+         );
+       }
+ 
+       const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+       const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
+       const data = await response.json();
+ 
+       if (data && data.video && data.video.noWatermark) {
+         return await message.send(
+           data.video.noWatermark,
+           { caption: Config.caption },
+           fileType,
+           message
+         );
+       } else {
+         return await message.reply("Error While Downloading Your Video");
+       }
+     } catch (error) {
+       return message.error(`${error}\n\ncommand: tiktok`, error);
+     }
+   }
+ );
+/**
+ smd(
+   {
+     pattern: "tiktok2",
+     desc: "Downloads Tiktok Videos Via Url.",
+     category: "downloader",
+     filename: __filename,
+     use: "<add tiktok url.>",
+   },
+   async (message, url) => {
+     try {
+       if (!url) {
+         return await message.reply(
+           `*Uhh Please, Provide me tiktok Video Url*\n*_Ex ${prefix}tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`
+         );
+       }
+ 
+       const tiktokUrl = url.split(" ")[0];
+       if (!/tiktok/.test(tiktokUrl)) {
+         return await message.reply(
+           "*Uhh Please, Give me Valid Tiktok Video Url!*"
+         );
+       }
+ 
+       const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
+         tiktokUrl
+       )}`;
+       const response = await fetchJson(apiUrl);
+ 
+       if (response.status !== 200) {
+         return await message.reply(`*Error: ${response.result}*`);
+       }
+ 
+       const videoUrl = response.result;
+       const fileType = videoUrl.toLowerCase().includes("mp4")
+         ? "video"
+         : "document";
+ 
+       await message.send(
+         videoUrl,
+         { caption: Config.caption },
+         fileType,
+         message
+       );
+     } catch (error) {
+       console.error(error);
+       return message.error(`${error}\n\ncommand: tiktok`, error);
+     }
+   }
+ );
+
+
+
+
+    
+/***
+
 cmd({
     pattern: "tiktok",
     react: "💃",
