@@ -27,13 +27,13 @@ const maru =`⚖️ *wasimd dev team* ⚖️
 📌  *.taifur*     -  _Get the bio details of CO-OWNER and CO-CODER_
 
 📌  *.aki*      -  _Get the bio details of CO-OWNER and CO-CODER_
-/**
+
 📌  *.naduwa*    -  _Get the the bio details of BETA TESTER AND BUG TESTER_
 
 📌  *.tharuwa*   -  _Get the the bio details of BETA TESTER AND BUG TESTER_
 
 📌  *.akash*     -  _Get the the bio details of BETA TESTER AND BUG TESTER_
-**/
+
 *WASI-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ WASI-TYECH-TEAM ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
@@ -118,7 +118,7 @@ reply('*Error !!*')
 l(e)
 }
 })
-/**
+
 cmd({
     pattern: "akash",
     react: "⚡",
@@ -266,7 +266,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } 
-**/
+
 catch (e) {
 reply('*Error !!*')
 l(e)
