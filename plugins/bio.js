@@ -4,7 +4,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 cmd({
     pattern: "team",
     react: "™️",
-    alias: ["cyber_team"],
+    alias: ["wasimd"],
     desc: "Get Cyber-X Dev Team Bio Details",
     category: "extra",
     use: '.team',
@@ -12,30 +12,30 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ* ⚖️
+const maru =`⚖️ *wasimd dev team* ⚖️
 
 👨‍✈️ *Below are the commands to get the details of the developer team of CYBER-X BOT.*
 
 ⭕ *Use the command you want and get the details you need*
 
 ┌──────────────────┐
-│👨‍✈️ *𝙳𝙰𝚁𝙺 𝙰𝙻𝙿𝙷𝙰 𝚇 𝚃𝙴𝙰𝙼* 👨‍✈️ │
+│👨‍✈️ *WASI 𝚇 𝚃𝙴𝙰𝙼* 👨‍✈️ │
 └──────────────────┘ 
 
-📌  *.thinura*   -  _Get the bio details of founder and owner of DARKALPHAXTEAM and CYBER-X BOT._
+📌  *.wasi*   -  _Get the bio details of founder and owner and main develpoer._
 
-📌  *.chami*     -  _Get the bio details of CO-OWNER and CO-CODER_
+📌  *.taifur*     -  _Get the bio details of CO-OWNER and CO-CODER_
 
-📌  *.nima*      -  _Get the bio details of CO-OWNER and CO-CODER_
-
+📌  *.aki*      -  _Get the bio details of CO-OWNER and CO-CODER_
+/**
 📌  *.naduwa*    -  _Get the the bio details of BETA TESTER AND BUG TESTER_
 
 📌  *.tharuwa*   -  _Get the the bio details of BETA TESTER AND BUG TESTER_
 
 📌  *.akash*     -  _Get the the bio details of BETA TESTER AND BUG TESTER_
-
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
+**/
+*WASI-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ WASI-TYECH-TEAM ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
 reply('*Error !!*')
@@ -44,36 +44,36 @@ l(e)
 })
 
 cmd({
-    pattern: "thinura",
+    pattern: "wasi",
     react: "🎩",
-    alias: ["තිනුර","Darkalpha","darkalpha","Thinura"],
+    alias: ["wasiiii","waso","Itxxwsi","wasii"],
     desc: "Get Cyber-X Dev Team Bio Details",
     category: "",
-    use: '.thinura',
+    use: '.wasi',
     filename: __filename
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌────────────────┐
-│ 👨‍✈️ *𝙼𝚁. 𝙳𝙰𝚁𝙺𝙰𝙻𝙿𝙷𝙰* 👨‍✈️  │
+│ 👨‍✈️ *𝙼𝚁. wasi* 👨‍✈️  │
 └────────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි නිර්මාතෘ වන මොහු, CYBER-X BOT හිද අයිතිකරු සහ නිර්මාතෘ වේ. 👨‍💻*
+📌   *MR WASI MAIN DEVELOPER OF THIS BOT. 👨‍💻*
 
-📌   *The founder of DARKALPHAXTEAM, He is also the owner and creator of CYBER-X BOT. 👨‍💻👨‍💻*
-
-▬▬▬▬▬▬▬▬▬▬▬
-
-⭕ *PERSONAL GITHUB* - https://github.com/darkalphaxteam/
-
-📳 *CONTACT MR. DARKALPHA* - http://wa.me/94711421243
+📌   *FOLLOW GITHUB. 👨‍💻👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
+⭕ *PERSONAL GITHUB* - https://github.com/Itxxwasi/
+
+📳 *CONTACT MR. DARKALPHA* - http://wa.me/923192173398
+
+▬▬▬▬▬▬▬▬▬▬▬
+
+*wasi_x_ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ wasi-tech-team *`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
 reply('*Error !!*')
@@ -82,9 +82,9 @@ l(e)
 })
 
 cmd({
-    pattern: "chami",
+    pattern: "taifur",
     react: "⚖️",
-    alias: ["රොෂාන්","චමියා","chamiya","Chami","Chamiya"],
+    alias: ["රොෂාන්","චමියා","tafoo","tafi","taifurr"],
     desc: "Get Cyber-X Dev Team Bio Details",
     category: "",
     use: '.chami',
@@ -92,21 +92,21 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *wasi-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌─────────────┐
-│👨‍✈️ *𝙼𝚁.𝙲𝙷𝙰𝙼𝙸𝚈𝙰* 👨‍✈️ │
+│👨‍✈️ *𝙼𝚁 taifur* 👨‍✈️ │
 └─────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, CYBER-X BOT හි CO-OWNER සහ CO-CODER වේ. 👨‍💻*
+📌   *MAIN OWNER IDEA OWNER CODE OWNER OF X BOT. 👨‍💻*
 
-📌   *A member of the DARKALPHAXTEAM and he is the CO-OWNER and CO-CODER of the CYBER-X BOT. 👨‍💻*
+📌   *A member of the WASI-TECH-TEAM and he is the CO-OWNER and CO-CODER of the WASI-X BOT. 👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-⭕ *PERSONAL GITHUB* - https://github.com/chamiofficial
+⭕ *PERSONAL GITHUB* - https://github.com/https://github.com/Itxtaifur
 
-📳 *CONTACT MR.CHAMIYA* - http://wa.me/94775512050
+📳 *CONTACT MR.CHAMIYA* - http://wa.me/923440470092
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -118,7 +118,7 @@ reply('*Error !!*')
 l(e)
 }
 })
-
+/**
 cmd({
     pattern: "akash",
     react: "⚡",
@@ -265,7 +265,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 *ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
-} catch (e) {
+} 
+**/
+catch (e) {
 reply('*Error !!*')
 l(e)
 }
