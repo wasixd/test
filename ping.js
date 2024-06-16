@@ -17,7 +17,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 const nima = require("@whiskeysockets/baileys")
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*_Pinging to Cyber Module..._* ❗'  } )
+let ping = await conn.sendMessage(from , { text: '*_Pinging to wasi x beta server.._* ❗'  } )
 var final = new Date().getTime();
 await conn.sendMessage(from, { text : '◍○○○○' , edit : ping.key })
 await conn.sendMessage(from, { text : '◍◍○○○' , edit : ping.key })
